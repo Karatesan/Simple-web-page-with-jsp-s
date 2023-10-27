@@ -1,0 +1,137 @@
+@charset "ISO-8859-1";
+
+.user-pic {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin-right: 20px;
+	margin-bottom: 30px;
+}
+
+.users {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.div1{
+border:3px white solid;
+width:40%;	
+}
+
+
+.no-decoration {
+	text-decoration: none;
+	color: #000;
+	margin-top: 20px;
+}
+
+.button {
+	width: 200px;
+	height: 200px;
+	background-color: purple;
+	padding: 8px;
+	color: white;
+	border-radius: 10px;
+}
+
+.div1 {
+	padding: 50px;
+	margin: 20px;
+	text-align: left;
+}
+
+#rating-form .rating {
+	display: inline-block;
+	position: relative;
+}
+
+#rating-form input[type="radio"] {
+	position: absolute;
+	opacity: 0;
+	z-index: -1;
+}
+
+#rating-form label {
+	display: inline-block;
+	cursor: pointer;
+	color: #bbb;
+}
+
+#rating-form input[type="radio"]:checked+label {
+	color: #FDCC0D;
+}
+
+#rating-form label:hover, #rating-form label:focus, #rating-form input[type="radio"]:hover+label
+	{
+	color: #FDCC0D;
+}
+
+#rating-form label:hover ~ label, #rating-form label:focus ~ label,
+	#rating-form input[type="radio"]:hover ~ label {
+	color: #bbb;
+}
+
+#rating-form input[type="radio"]#rating-1:hover+label, #rating-form input[type="radio"]#rating-1:focus+label
+	{
+	color: #FDCC0D;
+}
+
+#rating-form input[type="radio"]#rating-1:hover ~ label[for^="rating-"]:nth-of-type(2n-1),
+	#rating-form input[type="radio"]#rating-1:focus ~ label[for^="rating-"]:nth-of-type(2n-1)
+	{
+	color: #FDCC0D;
+}
+
+#rating-form input[type="radio"]#rating-2:hover+label, #rating-form input[type="radio"]#rating-2:focus+label
+	{
+	color: #FDCC0D;
+}
+
+#rating-form input[type="radio"]#rating-2:hover ~ label[for^="rating-"]:nth-of-type(2n-1),
+	#rating-form input[type="radio"]#rating-2:focus ~ label[for^="rating-"]:nth-of-type(2n-1)
+	{
+	color: #FDCC0D;
+}
+
+#rating-form input[type="radio"]#rating-3:hover ~ label, #rating-form input[type="radio"]#rating-3:focus 
+	~ label {
+	color: #FDCC0D;
+}
+
+#rating-form input[type="radio"]#rating-3:hover ~ label[for^="rating-"]:nth-of-type(2n-1),
+	#rating-form input[type="radio"]#rating-3:focus ~ label[for^="rating-"]:nth-of-type(2n-1)
+	{
+	color: #FDCC0D;
+}
+
+#rating-form input[type="radio"]#rating-4:hover ~ label, #rating-form input[type="radio"]#rating-4:focus 
+	~ label {
+	color: #FDCC0D;
+}
+
+#rating-form input[type="radio"]#rating-4:hover ~ label[for^="rating-"]:nth-of-type(2n-1),
+	#rating-form input[type="radio"]#rating-4:focus ~ label[for^="rating-"]:nth-of-type(2n-1)
+	{
+	color: #FDCC0D;
+}
+
+#rating-form input[type="radio"]#rating-5:hover ~ label, #rating-form input[type="radio"]#rating-5:focus 
+	~ label {
+	color: #FDCC0D;
+}
+
+#rating-form input[type="radio"]#rating-5:hover ~ label[for^="rating-"]:nth-of-type(2n-1),
+	#rating-form input[type="radio"]#rating-5:focus ~ label[for^="rating-"]:nth-of-type(2n-1)
+	{
+	color: #FDCC0D;
+}
+
+.rating {
+	position: absolute;
+	left: -30px; /* adjust as needed */
+}

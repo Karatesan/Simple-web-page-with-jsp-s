@@ -1,0 +1,86 @@
+@charset "ISO-8859-1";
+.table-in-center {
+	width: 90%;
+	text-align: center;
+	border-left: solid 1px white;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+}
+
+.table-in-center td, .table-in-center th {
+	border-right: solid 2px white;
+}
+
+.table-in-center th {
+/*	background-color: #400040; */
+	background-color: purple;
+	color: white;
+}
+
+.table-in-center td.last-column {
+	border: 0px;
+	background-color: white
+}
+
+.submit-button-messages {
+	background-color: purple;
+	color: white;
+	font-size: 15px;
+	padding: 10px 16px;
+}
+
+.table-in-center tr:nth-child(even){background-color: #f2f2f2;}
+
+.links-in-messages {
+	font-family: Arial, Helvetica, sans-serif;
+	width:60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.links-in-messages a {
+	font-family: Arial, Helvetica, sans-serif;
+	color:purple;
+	padding: 10px;
+}
+
+.links-in-messages a:hover {
+    text-decoration: underline;
+}
+
+.users-message {
+ margin:auto;
+ display: grid;
+ grid-template-columns: repeat(5, 1fr);
+ grid-gap: 1em;
+}
+
+.users-message #col1, #col2, #col3  {
+    /* border:solid black 2px; */
+    margin:20px;
+    text-align: center;
+    padding: 20px;
+    /* box-shadow: 4px 3px 8px 1px #969696; */
+
+    
+ }
+ 
+ .users-message .submit-button-messages {
+ 	padding: 5px 8px;
+ 
+ }
+ 
+ input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: purple;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: blue;
+}
